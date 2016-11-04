@@ -18,11 +18,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" misplaced="YES" id="Zi5-pI-KCs">
-                                <rect key="frame" x="0.0" y="417" width="375" height="250"/>
+                                <rect key="frame" x="0.0" y="421" width="375" height="246"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="excited" id="Vcg-UV-ECh">
-                                        <rect key="frame" x="157" y="52" width="60" height="60"/>
+                                        <rect key="frame" x="157" y="62" width="60" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <gestureRecognizers/>
                                         <connections>
@@ -30,7 +30,7 @@
                                         </connections>
                                     </imageView>
                                     <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="happy" id="6xz-oM-tEd">
-                                        <rect key="frame" x="29" y="52" width="60" height="60"/>
+                                        <rect key="frame" x="32" y="62" width="60" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <gestureRecognizers/>
                                         <connections>
@@ -38,7 +38,7 @@
                                         </connections>
                                     </imageView>
                                     <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="tongue" id="jBj-cC-b5p">
-                                        <rect key="frame" x="292" y="52" width="60" height="60"/>
+                                        <rect key="frame" x="283" y="60" width="60" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <gestureRecognizers/>
                                         <connections>
@@ -46,7 +46,7 @@
                                         </connections>
                                     </imageView>
                                     <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="wink" id="U9V-WG-hkB">
-                                        <rect key="frame" x="29" y="145" width="60" height="60"/>
+                                        <rect key="frame" x="32" y="154" width="60" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <gestureRecognizers/>
                                         <connections>
@@ -54,7 +54,7 @@
                                         </connections>
                                     </imageView>
                                     <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="sad" id="qfz-Q5-ea0">
-                                        <rect key="frame" x="157" y="145" width="60" height="60"/>
+                                        <rect key="frame" x="157" y="154" width="60" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <gestureRecognizers/>
                                         <connections>
@@ -62,11 +62,11 @@
                                         </connections>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="down_arrow" id="Xfx-5B-dbw">
-                                        <rect key="frame" x="177" y="8" width="20" height="14"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <rect key="frame" x="177" y="16" width="20" height="14"/>
+                                        <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                     <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="dead" id="1Pp-a9-4WN">
-                                        <rect key="frame" x="292" y="145" width="60" height="60"/>
+                                        <rect key="frame" x="283" y="154" width="60" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <gestureRecognizers/>
                                         <connections>
@@ -87,6 +87,7 @@
                     <connections>
                         <outlet property="panGestureRecognizer" destination="mv5-9j-xgq" id="gqa-fh-bVf"/>
                         <outlet property="parentView" destination="8bC-Xf-vdC" id="fo5-h4-p0d"/>
+                        <outlet property="trayArrowView" destination="Xfx-5B-dbw" id="o4o-FR-NV4"/>
                         <outlet property="trayView" destination="Zi5-pI-KCs" id="9Za-QS-MRr"/>
                     </connections>
                 </viewController>
